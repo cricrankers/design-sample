@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricRankers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="styles">
+<link rel="manifest" href="manifest.json">
+<!-- <meta name="theme-color" content="#0a0613"> -->
+</head>
+
+<body id="body">
+ 
+   <header id="headerdiv">
+
+     <div id="headerboxleft">
+        <div id="goatcontainer">
+        <img id="goat" src="goatblackpng.png"></div>
+        <div id="cricrankerscontainer">
+        <img id="cricrankers" src="cricrankerslogops copy.png"></div>
+     </div>
+
+     <div id="headerboxright">
+       
+        <div id="searchbarcontainer">
+            <input type="search" id="searchbar" placeholder="Search Players Profile">
+            <img src="search.svg" id="searchicon">
+        </div>
+
+       
+
+        <div id="menubackground">
+            <img src="menu.svg" id="menuicon">
+        </div>
+         
+    </div>
+
+   </header>
+   
+    <div id="searchbarheader">
+        <div id="searchbarbackgroundmobile">
+            <img src="search.svg" id="searchicon">
+            <input type="search" id="searchbarmobile" placeholder="Search Players Profile">
+        </div>
+    </div>
+   
+    
+
+<div id="rankingcontainer">
+
+   <div id="tableheading">
+    <p id="thp1" >CRICRANKERS<br><span id="span">ALL TIME CAREER RANKING</span></p>
+    
+   </div>
+    
+  <div id="tablenav" >
+   <div id="goatrank" ><p class="navelementselected">GOAT</p></div>
+   <div id="testrank" ><p class="navelement">TEST</p></div>
+   <div id="odirank"  ><p class="navelement">ODI</p></div>
+   <div id="t20rank"  ><p class="navelement">T20</p></div> 
+   <div id="odiwcrank"><p class="navelement">ODIWC</p></div>
+   <div id="t20wcrank"><p class="navelement">T20WC</p></div> 
+  </div>
+
+  <div id="tablecontainer" >
+          <!-- <div id="borderdiv"></div> -->
+
+   <div id="tableheader">
+        <div id="flexheaderleft">
+       <input type="radio" id="activeplayers" name="players" >
+      <label for="activeplayers"><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; font-size: 10px;color: rgb(80, 80, 80);">ACTIVE PLAYER</span></label>
+
+      <input type="radio" id="allplayers" name="players" style="margin-left: 15px; " checked>
+      <label for="allplayers"><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; font-size: 10px;color: rgb(80, 80, 80);">ALL PLAYERS</span></label>
+        </div>
+
+      <div id="flexheaderright">
+        <div id="formatbox"><p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: aliceblue;font-size: 10px;opacity: 0.85;">ALL FORMAT</p></div>
+      </div>
+
+      </div>
+
+    <div id="tablecontent">
+      <!-- <a href="profile.html"> -->
+        <div id="rank1">
+            <div id="goatleft">
+              <p class="ranknumrank1">01</p><span style="height: 78px;" class="horidiv"></span>
+              
+               <div id="rank1data">
+             <a class="playernamerank1" href="profile.html">Virat<span class="playersurnamerank1">KOHLI</a>
+               <div style="display: flex;align-items: center;"><span class="playersurnamerank1" style="margin-left: 0px;">987</span><img src="india.png" style="width: 12%;height: 10%; margin-left: -50px; margin-top: 3px;">  
+               </div>
+               <div id="comparecontainer">
+                <span class="comparename" style="font-size: 10px;font-weight: 600;margin-top: 6px;">COMPARE</span>
+                <img id="compareicon" src="compareicon.svg">
+                </div>
+            </div>
+
+            </div>
+            <div id="goatright">
+              <div id="photocontainer">
+                <div id="photodiv"><img src="VIRATPROFILE.jpg" id="photo"></div>
+                <div id="label"><img src="goatwhite.png" id="labelimg"></div>
+            </div>
+        </div>
+
+        </div>
+      <!-- </a> -->
+        
+        
+<div id="rank2" class="otherrank" >
+          <div id="otherrankleft">
+          <p class="ranknum">02</p><span class="horidiv"></span><img class="profilepic" src="SachinTendulkar.jpg"><p class="playername">SACHIN</p><p class="playersurname">TENDULKAR</p>
+         </div>
+         <div id="otherrankright"><img class="countryflag" src="india.png"><p class="rating">983</p></div>
+        </div>
+        <div id="rank3" class="otherrank"style="  background-color:#f7f7f7;">
+          <div id="otherrankleft">
+           <p class="ranknum">03</p><span class="horidiv"></span><img class="profilepic" src="KumarSangakkara.jpg"><p class="playername">KUMAR</p><p class="playersurname">SANGAKARA</p>
+          </div>
+          <div id="otherrankright"><img class="countryflag" src="sri lanka.jpg"><p class="rating">977</p></div>
+        </div>
+        <div id="rank4" class="otherrank">
+          <div id="otherrankleft">
+          <p class="ranknum">04</p><span class="horidiv"></span><img class="profilepic" src="RickyPonting.jpg"><p class="playername">RICKY</p><p class="playersurname">PONTING</p>
+          </div>
+          <div id="otherrankright"><img class="countryflag" src="australia.jpg"><p class="rating">967</p></div>
+        </div>
+        <div id="rank5" class="otherrank"style="  background-color:#f7f7f7;">
+          <div id="otherrankleft">
+          <p class="ranknum">05</p><span class="horidiv"></span><img class="profilepic" src="JacquesKallis.jpg"><p class="playername">JACQUES</p><p class="playersurname">KALLIS</p>
+          </div>
+          <div id="otherrankright"><img class="countryflag" src="south africa.jpg"><p class="rating">957</p></div>
+        </div>
+        <div id="tablefooter">
+          <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #1A142C;font-size: 12px;font-weight: 700;">FULL RANKINGS </p>
+        <img id="leftarrow" src="leftarrow.svg">
+      </div>
+    </div>
+
+      
+      
+    
+    
+
+    </div>
+  
+</div>
+
+<div id="rankingcontainer" style="margin-top:0px">
+
+  <div id="tableheading">
+   <p id="thp1" ><br><span id="span">ICC MENS RANKING</span></p>
+   
+  </div>
+   
+ <div id="tablenav" >
+  <!-- <div id="goatrank" ><p class="navelementselected">GOAT</p></div> -->
+  <div id="testrank" ><p class="navelement"style="margin-left:80px">TEST</p></div>
+  <div id="odirankicc"  ><p class="navelementselected">ODI</p></div>
+  <div id="t20rank"  ><p class="navelement"style="margin-right:80px">T20</p></div> 
+  <!-- <div id="odiwcrank"><p class="navelement">ODIWC</p></div> -->
+  <!-- <div id="t20wcrank"><p class="navelement">T20WC</p></div>  -->
+ </div>
+
+ <div id="tablecontainer">
+  <div id="tableheader">
+       <div id="flexheaderleft">
+      <!-- <input type="radio" id="activeplayers" name="players" > -->
+     <!-- <label for="activeplayers"><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; font-size: 10px;color: rgb(80, 80, 80);">ACTIVE PLAYER</span></label> -->
+     <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; font-size: 10px;color: rgb(80, 80, 80); padding: 8px;">UPDATED: 22/3/24</span>
+     <!-- <input type="radio" id="allplayers" name="players" style="margin-left: 15px; " checked> -->
+     <!-- <label for="allplayers"><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; font-size: 10px;color: rgb(80, 80, 80);">ALL PLAYERS</span></label> -->
+       </div>
+
+     <div id="flexheaderright">
+       <div id="formatbox"><p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: aliceblue;font-size: 10px;opacity: 0.85;margin:5px">ODI</p></div>
+     </div>
+
+     </div>
+
+     <!-- <div id="borderdiv"></div> -->
+   <div id="tablecontent">
+       <div id="rank1">
+           <div id="goatleft">
+             <p class="ranknumrank1">01</p><span style="height: 78px;" class="horidiv"></span>
+             
+              <div id="rank1data">
+             <p class="playernamerank1">Babar<span class="playersurnamerank1">AZAM</p>
+              <div style="display: flex;align-items: center;"><span class="playersurnamerank1">824</span><img src="pakistan.jpg" style="width: 15%;height: 15%; margin-left: -50px;">  
+              </div>
+              <div id="comparecontainer">
+                <span class="comparename" style="font-size: 10px;font-weight: 600;margin-top: 6px;">COMPARE</span>
+                <img id="compareicon" src="compareicon.svg">
+                </div>
+           </div>
+
+           </div>
+           <div id="goatright">
+           <!-- <img id="goatbackground" src="goatblackpng.png"> -->
+           <img id="goatimage" src="babar-azam.webp">
+       </div>
+       </div>
+       
+       
+<div id="rank2" class="otherrank">
+         <div id="otherrankleft">
+         <p class="ranknum">02</p><span class="horidiv"></span><img class="profilepic" src="shubmangill.jpg"><p class="playername">Shubman</p><p class="playersurname">GILL</p>
+        </div>
+        <div id="otherrankright"><img class="countryflag" src="india.png"><p class="rating">801</p></div>
+       </div>
+       <div id="rank3" class="otherrank"style="  background-color:#f7f7f7;">
+         <div id="otherrankleft">
+          <p class="ranknum">03</p><span class="horidiv"></span><img class="profilepic" src="VIRATPROFILE.jpg"><p class="playername">Virat</p><p class="playersurname">KOHLI</p>
+         </div>
+         <div id="otherrankright"><img class="countryflag" src="india.png"><p class="rating">768</p></div>
+       </div>
+       <div id="rank4" class="otherrank">
+         <div id="otherrankleft">
+         <p class="ranknum">04</p><span class="horidiv"></span><img class="profilepic" src="rohitsharma.jpg"><p class="playername">Rohit</p><p class="playersurname">SHARMA</p>
+         </div>
+         <div id="otherrankright"><img class="countryflag" src="india.png"><p class="rating">746</p></div>
+       </div>
+       <div id="rank5" class="otherrank"style="  background-color:#f7f7f7;">
+         <div id="otherrankleft">
+         <p class="ranknum">05</p><span class="horidiv"></span><img class="profilepic" src="harrytector.jpg"><p class="playername">Harry</p><p class="playersurname">TECTOR</p>
+         </div>
+         <div id="otherrankright"><img class="countryflag" src="ireland.jpg"><p class="rating">746</p></div>
+       </div>
+       <div id="tablefooter">
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #1A142C;font-size: 12px;font-weight: 700;">FULL RANKINGS </p>
+      <img id="leftarrow" src="leftarrow.svg">
+    </div>
+   </div>
+
+     
+    
+   
+
+
+   </div>
+ 
+</div>
+
+<div id="adcontainer">
+    <img src="adaramcogif.gif" id="adarmco">
+    </div>
+
+<div id="dumycon"></div>
+</body>
+
+</html>
